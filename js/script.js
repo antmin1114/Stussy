@@ -138,6 +138,7 @@ $(document).ready(function(){
             $('.header-area .logo').addClass('active');
             $('.header-area .main-menu').addClass('active');
             $('.header-area .icon-box').addClass('active');
+            $('#hamburger').addClass('on');
             $('.main-menu li').mouseenter(function() {
 
                $(this).addClass('on');
@@ -162,6 +163,7 @@ $(document).ready(function(){
             $('.header-area .logo').removeClass('active');
             $('.header-area .main-menu').removeClass('active');
             $('.header-area .icon-box').removeClass('active');
+            $('#hamburger').removeClass('on');
 
         }
 
